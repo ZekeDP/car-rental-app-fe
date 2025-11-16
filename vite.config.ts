@@ -1,7 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// TODO: TEST CAN BE REMOVED. As VITE is existing in root level, this config file might be redundant.
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
